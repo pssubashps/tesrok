@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html class="ie ie7" lang="en"><![endif]-->
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CompanyLogo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<header id="header">
+			<div class="container">
+				<div class="row-fluid">
+					<div class="span4">
+						<a href="#"><img class="logo" src="images/logo.png" alt="CompanyLogo"></a>
+					</div>
+					<div class="span8">
+						<ul class="user-nav">
+							<li><a href="#">General Ledger</a><span class="divider">|</span></li>
+							<li><a href="#">Account Setting</a><span class="divider">|</span></li>
+							<li><a href="#">Help</a><span class="divider">|</span></li>
+							<li><a href="#">Log Out</a></li>
+						</ul>
+						<button type="button" class="btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<div class="nav-collapse collapse">
+							<ul class="nav">
+								<li><a class="active" href="#">Accounts</a></li>
+								<li><a href="#">Batches</a></li>
+								<li><a href="#">Reports</a></li>
+								<li><a href="#">Period Close</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header><!-- #header -->
+		<div class="main">
+			<div class="container">
+				<div class="row-fluid">
+					<div class="span3">
+						<aside class="side-nav">
+							<div class="section-title">
+								<h3>General Ledger</h3>
+							</div>
+							<form class="form-side" action="#" method="post">
+								<div class="control-group">
+									<label class="control-label" for="accountid">Account Id:</label>
+									<div class="controls">
+										<input class="input-block-level" type="text" id="accountid">
+									</div>
+								</div>
+								<div class="control-group">
+									<label class="control-label" for="accountname">Account Name:</label>
+									<div class="controls">
+										<input class="input-block-level" type="text" id="accountname">
+									</div>
+								</div>
+								<div class="control-group">
+									<label class="control-label">Type:</label>
+									<div class="controls">
+										<label class="radio">
+											<input type="radio" name="actype" checked="checked"> ASSET
+										</label>
+										<label class="radio">
+											<input type="radio" name="actype"> EXPENSE
+										</label>
+										<label class="radio">
+											<input type="radio" name="actype"> INCOME
+										</label>
+										<label class="radio">
+											<input type="radio" name="actype"> LIABILITY
+										</label>
+										<button type="submit" class="btn-block btn">ADD ACCOUNT</button>
+									</div>
+								</div>
+							</form>
+						</aside><!-- .side-nav -->
+					</div>
+				</div>
+			</div>
+		</div><!-- .main -->
+	</div><!-- .wrapper -->
+</body>
+</html>

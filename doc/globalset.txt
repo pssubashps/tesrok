@@ -1,0 +1,75 @@
+
+Global Settings
+1)        (check box) Allow New User to Register
+
+2)        (check box) Every new user has to activated manually, if enabled, they will show on a queue when admin logs in
+
+3)       (check box)  Notify admin of system when new user registers
+
+4)       (check box)  Check the main screen, if x days, hours, mins, secs pass, if checked newly unregistered users get deleted automatically,
+
+5)       Default Blog to Give Access to :  This will give the user access to this blog but one can always add more or remove this from their user account
+
+6)       (x)  Enhanced password reset security enabled if checked:
+
+a.       The following will show below, if not the system will just send a simple msg to email to allows a resset
+
+b.       Enhanced password fields:
+
+c.        Maximum Number of Security Attempts ( must be greater than 0 and ranges to 25) if failed the user password reset expires
+
+d.       Max Number of Password Resets Allowed per ____Choose hr, day, month ,yr etc, you set, if too many , user gets banned
+
+e.        Maximum Number of Security Questions to have (must be greater than 0 )
+
+f.        Maximum Number of Security Questions to ask (must be the 1 or the max is the the max in d)
+
+g.        Max Time for Password Reset Request to expire: (0 ) one may enter hr, min, secs in respective fields if first is not 0
+
+h.       Password Complexity: 
+
+                                                                           i.      Simple:  no requirement
+
+                                                                          ii.      Advanced:  Must be ----x characters and have one upper letter
+
+                                                                        iii.      Complete Must be X characters, x letter, x number ,x uppercase
+
+i.         How it works: When someone click on the forgot password from mobile or  web
+
+                                                                           i.      System will check their IP and record it
+
+                                                                          ii.      The system will send e-mail out
+
+                                                                        iii.      If the user clicks the link within the expiry timer the system will then check the ip and see if the same ip that requested the password is the same user ip that is reconnecting
+
+                                                                        iv.      Next if valid, then they will be prompted to enter their security answers, which they will not see
+
+                                                                         v.      If successful , the system will allow them to choose the new password
+
+j.         (checkbox) Auto Logoff
+
+                                                                           i.      If enabled the two boxes below show
+
+1.       Log off in X minutes
+
+2.       (check box) Display Ticker if enabled it shows a ticker on top of any screen or device connected
+
+k.       E-mail Configuration Section
+
+                                                                           i.      Protocol:  POP, Send Mail
+
+                                                                          ii.      From E-mail Address
+
+l.         EULAS
+
+                                                                           i.      Here one can type a EULA, upload a word or other txt file up into the system, one can also choose to have many EULAS’
+
+1.       Then for Each EULA’s they can assign it to
+
+a.       General App EULA, you have to agree to when you download install or update
+
+b.       General Posting EULA, can be the Same
+
+c.        Assigned to Any Campaign,
+
+ 
